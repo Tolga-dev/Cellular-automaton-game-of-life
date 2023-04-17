@@ -1,5 +1,4 @@
 #include <iostream>
-#include <utility>
 #include <vector>
 #include <SDL2/SDL.h>
 
@@ -11,12 +10,11 @@ const int COLS = 50;
 const int CELL_SIZE = 10;
 
 #define handle_error(msg) \
-    do { perror(msg); exit(EXIT_FAILURE); cout << msg << " SDL failed! " << endl; \
+    do { perror(msg); exit(EXIT_FAILURE); cout << (msg) << " SDL failed! " << endl; \
         } while (0)
 #define handle_success(msg) \
-    do { cout << msg << " Working! " << endl; \
+    do { cout << (msg) << " Working! " << endl; \
         } while (0)
-
 
 class Glider
 {
@@ -117,9 +115,9 @@ public:
 private:
     v_vii &grid;
     v_vii next_grid;
-    int pix_life = 0;
-    int height;
-    int width;
+    [[maybe_unused]] int pix_life = 0;
+    [[maybe_unused]] int height;
+    [[maybe_unused]] int width;
     SDL_Renderer *renderer = nullptr;      // Pointer for the renderer
     SDL_Window *window = nullptr;      // Pointer for the window
 };
@@ -140,7 +138,7 @@ int main() {
     grid[22][21] = 1;
     grid[21][22] = 1;
 
-    // idont know what the f* is that lol
+    // idont know what is that lol
 /*
     grid[25][24] = 1;
     grid[27][24] = 1;

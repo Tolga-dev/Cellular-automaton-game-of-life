@@ -27,9 +27,9 @@ Initialize a grid:
 ### Files 
  * SdlGeneralGamingPracticing (#include <SDL.h>) 
    * Create Window - Drawing - Animation(up down) - class rule 5 :D
- 
+
  * There will be found glider pattern in game of life.
-   * with sdl and string
+   * with sdl and string, easy to understand
    * ![Example Glider](/pics/glider.png)
-   * Random Pattern but looking funny
+   * Random Pattern but looking funny - u can change how u would like to 
    * ![Example Glider](/pics/game.png)

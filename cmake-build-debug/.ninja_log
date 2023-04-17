@@ -1,0 +1,11 @@
+# ninja log v5
+0	936	1681749884778299691	CMakeFiles/GameOfLife.dir/main_sdl_basic_glider.cpp.o	74cadd3e11677df3
+1	648	1681722992136414609	CMakeFiles/GameOfLife.dir/SdlGeneralGamingPracticing.cpp.o	26be8fc7ae3b8f87
+0	537	1681747126828626095	CMakeFiles/GameOfLife.dir/Factory.cpp.o	cb588f66949089a6
+0	29	1681749885494304266	build.ninja	e8f5d400917fffe2
+1	925	1681746506500798340	CMakeFiles/GameOfLife.dir/main_sdl.cpp.o	4a299d6ba969d0d2
+0	839	1681749858130129054	CMakeFiles/GameOfLife.dir/gliderFactory.cpp.o	2099b74de6131658
+937	1139	1681749884982300995	GameOfLife	29e0ad46197d6803
+1	936	1681719765197163315	CMakeFiles/GameOfLife.dir/main.cpp.o	a32555a68fb026c7
+1	884	1681749914014486084	CMakeFiles/GameOfLife.dir/main_sdl_basic_glider.cpp.o	74cadd3e11677df3
+884	1038	1681749914166487051	GameOfLife	29e0ad46197d6803

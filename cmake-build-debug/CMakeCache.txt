@@ -215,6 +215,24 @@ GameOfLife_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 GameOfLife_SOURCE_DIR:STATIC=/home/xamblot/CLionProjects/GameOfLife
 
+//Use vendored libraries
+MYGAME_VENDORED:BOOL=OFF
+
+//Value Computed by CMake
+SDL2Test_BINARY_DIR:STATIC=/home/xamblot/CLionProjects/GameOfLife/cmake-build-debug
+
+//Value Computed by CMake
+SDL2Test_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+SDL2Test_SOURCE_DIR:STATIC=/home/xamblot/CLionProjects/GameOfLife
+
+//The directory containing a CMake configuration file for SDL2.
+SDL2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/SDL2
+
+//The directory containing a CMake configuration file for SDL3.
+SDL3_DIR:PATH=SDL3_DIR-NOTFOUND
+
 
 ########################
 # INTERNAL cache entries

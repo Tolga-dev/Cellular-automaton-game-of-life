@@ -30,6 +30,6 @@ Initialize a grid:
  
  * There will be found glider pattern in game of life.
    * with sdl and string
-   * ![Example Glider](/home/xamblot/CLionProjects/GameOfLife/glider.png)
+   * ![Example Glider](/pics/glider.png)
    * Random Pattern but looking funny
-   * ![Example Glider](/home/xamblot/CLionProjects/GameOfLife/game.png)
+   * ![Example Glider](/pics/game.png)
